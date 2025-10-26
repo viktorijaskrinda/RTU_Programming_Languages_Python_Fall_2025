@@ -1,0 +1,2 @@
+# requirements.txt
+# We can add libraries as needed (e.g., numpy, pandas)
