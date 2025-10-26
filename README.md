@@ -7,6 +7,16 @@ This 5-week course introduces Python to students who have completed the C Progra
 It emphasizes *translating structured C-style programming into idiomatic Python* and prepares students for data-oriented and scripting tasks.  
 Each week includes one **lecture (2×45 min)** and one **lab (2×45 min)**.
 
+## 🧑‍🎓 Student Instructions
+
+1. **Fork** this repository to your own GitHub account.  
+2. **Open in GitHub Codespaces** (use “Code → Open with Codespaces”).  
+3. Navigate to `src/week1/`. (and other weeks later on) 
+4. Complete each task file (`python_lab1_task1.py` … `task4.py`) by replacing TODOs.  
+5. Run tests or examples using the terminal (`python src/week1/python_lab1_task1.py`).  
+6. **Commit and push** your completed work.  
+7. Submit your repository URL and/or source .py files in Moodle (ORTUS on RTU)
+
 ---
 
 ## 📅 Weekly Overview
