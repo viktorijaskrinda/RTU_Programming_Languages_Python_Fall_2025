@@ -15,17 +15,16 @@ Instructions:
 4. Print your results in a clear, formatted way.
 """
 
-# TODO: Create the datasets - up to you to fill in the data
-temperatures = []
-city_population = {}
+temperatures = [10, 12, 14, 8, 6, 4, 2]
+city_population = {"Riga": 591882, "Amsterdam": 933680, "Cork": 224004}
 
-# TODO: Compute aggregates
-average_temperature = 0
-largest_city = ""
-largest_population = 0
-total_population = 0
+average_temperature = sum(temperatures) / len(temperatures)
+largest_city = max(city_population, key=lambda city: city_population[city])
+largest_population = city_population[largest_city]
+total_population = sum(city_population.values())
+smallest_city = min(city_population, key=lambda city: city_population[city])
+smallest_population = city_population[smallest_city]
 
-# TODO: Print results
-print("Average temperature:", average_temperature)
+print("Average temperature:", average_temperature, "Celsius")
 print("Largest city:", largest_city, "-", largest_population)
 print("Total population:", total_population)

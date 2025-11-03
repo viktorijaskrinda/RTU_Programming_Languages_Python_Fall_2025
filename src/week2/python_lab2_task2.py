@@ -16,16 +16,13 @@ Given the list:
 5. Print all results.
 """
 
-# Fill in your own numbers or generate 10 random integers
-numbers = []
+numbers = [5, 1, -3, 8, 12]
 
-# TODO: Implement comprehensions
-squares = []
-positives = []
-even_squares = set()
-cubes = {}
+squares = [n**2 for n in numbers]
+positives = [n for n in numbers if n>0]
+even_squares = set([n**2 for n in numbers if n%2 ==0])
+cubes = {n**3 for n in numbers}
 
-# TODO: Print results
 print("Squares:", squares)
 print("Positives:", positives)
 print("Even squares:", even_squares)
